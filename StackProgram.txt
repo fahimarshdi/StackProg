@@ -19,12 +19,7 @@ return false;
 }
 bool isempty (stack s)
 {
-if (s.top==-1)
-{
-return true;
-}
-else
-return false;
+return(s.top==MAX_ITEMS-1);
 }
 void push (stack &s, int item)
 {

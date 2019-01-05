@@ -21,6 +21,7 @@ bool isempty (stack s)
 {
 return(s.top==MAX_ITEMS-1);
 }
+
 void push (stack &s, int item)
 {
 if (isfull(s))

@@ -24,7 +24,9 @@ if (s.top==-1)
 return true;
 }
 else
+{
 return false;
+}
 }
 void push (stack &s, int item)
 {
